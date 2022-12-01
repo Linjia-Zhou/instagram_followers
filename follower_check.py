@@ -27,4 +27,7 @@ no_follow_back = diff_rows.loc[diff_rows['_merge'] == 'left_only']
 i_dont_follow_back = diff_rows.loc[diff_rows['_merge'] == 'right_only']
 
 if __name__ == '__main__':
-    print(no_follow_back)
+    # uncomment to see who doesn't follow you back
+    # print(no_follow_back)
+    # uncomment to see who you don't follow back
+    # print(i_dont_follow_back)
